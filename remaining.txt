@@ -1,0 +1,8 @@
+maths function/string advance function
+tuple methods
+python library function build functions
+
+pypi.org [ package available  online ]
+
+=>openpyxl for excel file
+(learn more about thsi also)

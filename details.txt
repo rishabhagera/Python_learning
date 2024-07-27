@@ -1,0 +1,184 @@
+*** PYTHON IMPORTANT TOPIC DISCUSSION ***
+
+Python program use interpreter => (Which work line by line in compiling process)
+
+print(" * " * 10)   
+[ this is called an expression]   
+output : ********** [* will multiplly 10 times and then print]
+
+
+********INTERPRETER*********
+
+price =10
+price =20
+print("price :",price)
+
+Output 20
+
+=====DATA TYPE:
+
+[ int , float , String , boolean ]
+
+print("\n____________\n")
+price =10
+#price =20
+rating =4.5
+name = "Prime"
+is_good=True
+print("price :",price)
+print("rating :",rating)
+print("NAME :",name)
+print("IS Good",is_good)
+print("\n____________\n")
+
+
+***[Concatination of 2 Strings]
+
+print("Hi "+ full_name)
+
+############[TYPE Conversion]#############
+
+birth_year =input("Enter your birth year")
+print(type(birth_year))
+age = 2024 - int(birth_year)
+print(" Your Age :",age)  
+
+pound_wg=input("Enter your Weight in pound : ")
+kg = 0.45 * int(pound_wg)
+print("Your Weight in kilogram : ",kg)
+
+
+***String 
+
+course ="it's my  book"
+print(course)
+co1='i am "Rishabh"'
+print(co1)
+
+email_form=""" 
+Hy Rishabh,
+
+this is my first email regrding issues
+
+Thank you,
+Roy
+\n
+"""
+print(email_form)
+
+/// Single Quote and Double quote both are allowed
+
+****
+# WORKING WITH STRINGS
+
+course ="Python for Beginners"
+#python Index Starts From =>0
+print(course[0])
+print(course[-1],course[-2])
+
+print(course[0:3])#from 0 to 2 index will not include <3>
+print(course[0:])#this will go until end
+print(course[1:])#this will go until end
+
+print(course[:5])#will start from 0 till 4 index
+
+another = course[:]#start from 0 till end OR COPY our COURSE STRING 
+print(another)
+
+sa="jennifer"
+print(sa[1:-1])
+
+########Formated Strings##########
+
+name ="Rishabh"
+surname="Upadhyay"
+print(name+" [ "+surname+" ] " +"is a coder " )
+#formated string
+msg= f'{name},[{surname}] is a coder'
+print(msg)#string formated without using concatination
+
+###############String Function ##################
+
+course ="python for Beginners"
+print(len(course))
+#this function will not affect the original variable value
+print(course.upper())
+print(course.lower())
+print(course.find('p'))#this will return index value
+                        #find function is case sensitive letter should be capital or small case should be seen perfectly
+print(course.find("Beginners"))#output 11 Because of index start
+print(course.replace("Beginners","Absolute Bginners")) 
+
+print('for'in course) # in function 
+print(course.title())#giving title Formate
+
+
+___________________________________________________
+DIFFERENCE BETWEEN [ IN AND FIND ] Function
+find display Index
+In Display BOOLEAN VALUE
+___________________________________________________
+
+############# ARITHMATIC OPERATION ###################
+
+X += 3
+this is called ogmanted sign for increment of operator
+
+########### OPERATOR PRESDENCE   ############
+
+X = 10+3*2
+print(X)
+
+OUTPUT 16
+
+parethesis
+Exponent (power)
+mul,div
+add,sub
+
+x= (2+3)*10-3
+print(x)
+
+#maths function
+"""
+x=2.6
+print(round(x))#round up number 
+print(abs(-2.9))# always give positive value
+"""
+import  math
+
+print(math.ceil(2.9))
+print(math.floor(2.9))
+
+
+############# Condition Statement ###########
+
+condition statement are help full we can take decison in them 
+
+#while Loop
+
+#block of code multiple time
+#We need to increment because if we would not increment then code will be [INFINITE LOOP ]
+#while loop also have their wo ELSE part
+
+
+###################unpacking##################
+
+  [this is available in list and tuple both]
+cordinate=[1,2,3]
+
+"""
+x=cordinate[0]
+y=cordinate[1]
+z=cordinate[2]
+"""
+#similar but quick 
+
+x,y,z=cordinate
+m,n,o=cordinate
+print(x,y,z)
+print(m,n)
+
+
+
+

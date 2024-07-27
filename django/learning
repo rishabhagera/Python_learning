@@ -1,0 +1,10 @@
+terminal tab code
+
+1. starting project
+django-admin startproject pyshop . 
+
+2.
+python manage.py runserver
+
+3. adding feature  product is a app itself
+python manage.py startapp products
